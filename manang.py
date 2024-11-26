@@ -67,12 +67,6 @@ with col2:
 
 col1, col2 = st.columns([3, 1])
 
-with col1:
-    st.header("Your Profile")
-    st.subheader(f"Name: {name}")
-    st.write(f"Bio: {bio}")
-    st.write(f"Age: {age}")
-    st.write(f"Gender: {gender}")
     
     st.subheader("Educational Attainment")
     if education_selected:
