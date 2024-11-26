@@ -10,7 +10,7 @@ with col1:
     st.header("About Me")
     name = st.text_input("Enter your full name", "Marialyn Ramada")
     bio = st.text_area("Write a short bio about yourself", 
-                       " I am Marialyn Ramada I live in Albor Libjo Dinagat Islands, I graduate at Albor National High School.")
+                       "I am a first year student, taking the course of Bachelor of Science in Computer Engineering.")
     birthday = st.text_input("Enter your birthday", "April 04, 2006")
     
     today = datetime.today()
@@ -43,7 +43,7 @@ with col1:
         for item in education_selected:
             st.write(f"- {item}")
     else:
-        st.write("Albor Central Elementary School.")
+        st.write("No educational background selected.")
     
     st.header("Parental Information")
     father_name = st.text_input("Father's Name", "Joven Ramada")
@@ -59,7 +59,7 @@ with col1:
 
     st.header("Hobbies & Interests")
     hobbies = st.text_area("List your hobbies or interests", 
-                           "- Playing Volleyball, Playing Guitar, Dancing and Singing")
+                           "- Playing Volleyball and PLaying Guitar")
 with col2:
     st.subheader("Photo")
     st.image('maria.jpg',width=200)
@@ -67,14 +67,19 @@ with col2:
 
 col1, col2 = st.columns([3, 1])
 
+with col1:
+    st.header("Your Profile")
+    st.subheader(f"Name: {name}")
+    st.write(f"Bio: {bio}")
+    st.write(f"Age: {age}")
+    st.write(f"Gender: {gender}")
     
     st.subheader("Educational Attainment")
     if education_selected:
         for item in education_selected:
             st.write(f"- {item}")
     else:
-        st.write("Albor Elementary School.")
-        st.write("Albor National High School.")
+        st.write("No educational background selected.")
 
     st.subheader("Parental Information")
     st.write(f"Father's Name: {father_name}  \n**Occupation:** {father_occupation}")
