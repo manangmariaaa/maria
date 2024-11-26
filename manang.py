@@ -59,7 +59,7 @@ with col1:
 
     st.header("Hobbies & Interests")
     hobbies = st.text_area("List your hobbies or interests", 
-                           "- Playing Volleyball and PLaying Guitar")
+                           "- Playing Volleyball, Playing Guitar, Dancing and Singing")
 with col2:
     st.subheader("Photo")
     st.image('maria.jpg',width=200)
