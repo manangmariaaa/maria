@@ -79,6 +79,7 @@ with col1:
         for item in education_selected:
             st.write(f"- {item}")
     else:
+        st.write("Albor Elementary School.")
         st.write("Albor National High School.")
 
     st.subheader("Parental Information")
