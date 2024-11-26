@@ -62,7 +62,7 @@ with col1:
                            "- Playing Volleyball and PLaying Guitar")
 with col2:
     st.subheader("Photo")
-    st.image('Hanna.jpeg',width=200)
+    st.image('maria.jpg',width=200)
 
 
 col1, col2 = st.columns([3, 1])
