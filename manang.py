@@ -10,7 +10,7 @@ with col1:
     st.header("About Me")
     name = st.text_input("Enter your full name", "Marialyn Ramada")
     bio = st.text_area("Write a short bio about yourself", 
-                       "I am a first year student, taking the course of Bachelor of Science in Computer Engineering.")
+                       " I am Marialyn Ramada I live in Albor Libjo Dinagat Islands, I graduate at Albor National High School.")
     birthday = st.text_input("Enter your birthday", "April 04, 2006")
     
     today = datetime.today()
