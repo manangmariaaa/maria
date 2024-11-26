@@ -79,7 +79,7 @@ with col1:
         for item in education_selected:
             st.write(f"- {item}")
     else:
-        st.write("No educational background selected.")
+        st.write("Albor National High School.")
 
     st.subheader("Parental Information")
     st.write(f"Father's Name: {father_name}  \n**Occupation:** {father_occupation}")
