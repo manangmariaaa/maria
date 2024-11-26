@@ -10,7 +10,7 @@ with col1:
     st.header("About Me")
     name = st.text_input("Enter your full name", "Marialyn Ramada")
     bio = st.text_area("Write a short bio about yourself", 
-                       "I am a first year student, taking the course of Bachelor of Science in Computer Engineering.")
+                       "I graduate at Albor National High School and I live in Albor Libjo Dinagat Islands.")
     birthday = st.text_input("Enter your birthday", "April 04, 2006")
     
     today = datetime.today()
@@ -79,7 +79,8 @@ with col1:
         for item in education_selected:
             st.write(f"- {item}")
     else:
-        st.write("No educational background selected.")
+        st.write("Albor Central Elementary School.")
+        st.write("Albor National High School.")
 
     st.subheader("Parental Information")
     st.write(f"Father's Name: {father_name}  \n**Occupation:** {father_occupation}")
