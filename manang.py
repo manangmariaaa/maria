@@ -44,8 +44,6 @@ with col1:
             st.write(f"- {item}")
     else:
         st.write("Albor Central Elementary School.")
-    else:
-        st.write("Albor National High School.")
     
     st.header("Parental Information")
     father_name = st.text_input("Father's Name", "Joven Ramada")
